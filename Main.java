@@ -14,7 +14,10 @@ public class Main {
 			arv.add(alfabeto[i], morse[i]);
 		}
 
-		System.out.println(arv.searchWord("-/..../../.-/--./---"));
+		System.out.println(arv.searchWord("- .... .. .- --. ---"));
 	}
 
 }
+//-... .-. . -. --- (Breno)
+//.--. . -.. .-. --- (Pedro)
+//- .... .. .- --. --- (Thiago)

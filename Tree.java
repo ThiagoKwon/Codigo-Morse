@@ -34,7 +34,7 @@ public class Tree {
 
 	public String searchWord(String instruc) {
 		Node<String> current = this.root;
-		instruc = instruc + "/";
+		instruc = instruc + " ";
 
 		for (int i = 0; i < instruc.length(); i++) {
 			String carac = String.valueOf(instruc.charAt(i));

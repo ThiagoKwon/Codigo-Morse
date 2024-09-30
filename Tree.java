@@ -8,7 +8,6 @@ public class Tree {
 		return root;
 	}
 
-	// ADICIONAR NOVO VALOR
 	public void add(String value, String instruc) {
 		Node<String> newNode = new Node<String>(value);
 

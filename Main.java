@@ -15,6 +15,7 @@ public class Main {
 		}
 
 		System.out.println(arv.searchWord("- .... .. .- --. ---"));
+		TreePrinter.showTree(arv.getRoot());
 	}
 
 }

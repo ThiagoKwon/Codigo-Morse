@@ -25,7 +25,7 @@ public class TreePrinter {
     }
 
     public static void showTree(Node<String> root) {
-        printTree(root, 0);  // Começa da raiz (nível 0)
+        printTree(root, 0);  
     }
 }
 
